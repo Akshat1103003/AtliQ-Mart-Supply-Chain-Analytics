@@ -1,5 +1,9 @@
 # AtliQ-Mart-Supply-Chain-Analytics
 This Report aims to provide analytics related to Supply Chain Analysis .
+## 📊 Link of Live Dashboard  
+
+🔗 **[View Dashboard in Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGU4OGNjOWItZDMwMy00ZTFkLWFkYWItMDVkODNlN2I2M2Q5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=094201de7f7b8f9fcfc8)**  
+
 -----
 ### 1.  Overall Performance (Grand Total) 
 - ✔ OT% (On-Time Percentage): **59.03%** → Nearly 41% of orders are delayed.
