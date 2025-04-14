@@ -30,24 +30,27 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 ### 3. 🏪 Store-Level Analysis  
 #### 3.1 : Best-Performing Stores (High OTIF%)
 
-| Store                        | OTIF%  | OT%    | IF%    | Order Lead Time | Delayed Orders |
-|------------------------------|--------|--------|--------|----------------|----------------|
-| Propel Mart (Vadodara)       | 42.48% | 74.08% | 61.31% | 2.12 days      | 14.26%         |
-| Expression Stores (Vadodara) | 41.59% | 70.49% | 63.54% | 2.23 days      | 16.59%         |
-| Info Stores (Vadodara)       | 41.33% | 71.14% | 62.59% | 2.21 days      | 17.42%         |
-| Sorefoz Mart (Vadodara)      | 41.13% | 73.70% | 60.80% | 2.11 days      | 14.62%         |
+| Customer        | Total Order Lines | Ordered Qty | Delivered Qty | D/O Gap % | ADDD | OT %   | IF %   | OTIF % | LFR %  | VFR %  | BR %   | Contribution % |
+|----------------|-------------------|-------------|----------------|------------|------|--------|--------|--------|--------|--------|--------|-----------------|
+| Propel Mart    | 4.85K             | 1144K       | 1118K          | -2.30%     | 1.45 | 85.62% | 75.62% | 65.05% | 75.6%  | 97.70% | 24.4%  | 8.50%           |
+| Atlas Stores   | 3.25K             | 761K        | 742K           | -2.42%     | 1.49 | 84.20% | 75.48% | 63.80% | 75.5%  | 97.58% | 24.5%  | 5.69%           |
+| Expert Mart    | 3.33K             | 790K        | 769K           | -2.56%     | 1.48 | 84.62% | 75.48% | 63.61% | 75.9%  | 97.44% | 24.5%  | 5.83%           |
+| Viveks Stores  | 3.22K             | 760K        | 742K           | -2.43%     | 1.57 | 83.42% | 75.06% | 63.04% | 75.1%  | 97.57% | 24.9%  | 5.64%           |
+| Rel Fresh      | 4.90K             | 1156K       | 1126K          | -2.57%     | 1.52 | 84.84% | 74.54% | 63.04% | 74.5%  | 97.43% | 25.5%  | 8.59%           |
+
 #### 👉 Insights :
-- Propel Mart with  ( **42.48%** )  has the highest OTIF%, indicating the best fulfillment rate.
+- Propel Mart with  ( **65.05%** )  has the highest OTIF%, indicating the best fulfillment rate.
 - Low delayed orders (~ **14%** ) and lower order lead times (<2.2 days) help drive better performance.
 
 #### 3.2 : Worst-Performing Stores (Low OTIF%)
 
-| Store                      | OTIF%  | OT%    | IF%    | Order Lead Time | Delayed Orders | Backorder Rate |
-|----------------------------|--------|--------|--------|----------------|----------------|----------------|
-| Acclaimed Stores (Surat)   | 6.93%  | 29.84% | 22.38% | 3.20 days      | 71.84%         | 70.6%          |
-| Coolblue (Vadodara)        | 7.14%  | 28.65% | 22.25% | 3.26 days      | 73.37%         | 70.8%          |
-| Lotus Mart (Vadodara)      | 7.97%  | 28.33% | 23.83% | 3.32 days      | 73.72%         | 69.2%          |
-| Elite Mart (Vadodara)      | 9.72%  | 72.20% | 16.61% | 2.16 days      | 15.36%         | 70.3%          |
+| Customer          | Total Order Lines | Ordered Qty | Delivered Qty | D/O Gap % | ADDD | OT %   | IF %   | OTIF % | LFR %  | VFR %  | BR %   | Contribution % |
+|-------------------|-------------------|-------------|----------------|------------|------|--------|--------|--------|--------|--------|--------|-----------------|
+| Coolblue          | 3.34K             | 777K        | 738K           | -4.92%     | 1.83 | 26.81% | 51.53% | 13.75% | 51.5%  | 95.08% | 48.5%  | 5.85%           |
+| Acclaimed Stores  | 4.80K             | 1120K       | 1074K          | -4.15%     | 1.81 | 26.89% | 58.93% | 15.24% | 58.9%  | 95.85% | 41.1%  | 8.40%           |
+| Lotus Mart        | 4.87K             | 1157K       | 1111K          | -3.99%     | 1.82 | 25.73% | 60.08% | 16.06% | 60.1%  | 96.01% | 39.9%  | 8.53%           |
+| Info Stores       | 3.23K             | 768K        | 731K           | -4.76%     | 1.55 | 83.14% | 53.05% | 43.48% | 53.1%  | 95.24% | 46.9%  | 5.65%           |
+| Elite Mart        | 3.28K             | 772K        | 736K           | -4.71%     | 1.47 | 84.74% | 52.74% | 44.88% | 52.7%  | 95.29% | 47.3%  | 5.75%           |
 
 👉 **Insights:**  
 - **Acclaimed Stores (Surat)** has the lowest **OTIF% (6.93%)** → **Severe supply chain inefficiency**.  
