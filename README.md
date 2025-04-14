@@ -69,7 +69,42 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 - Delayed Orders: **28.88%** -> Suggests persistent delays in fulfillment  .
 
 ------------------
-### 📊 Category-Specific Analysis  
+
+## 🏆 Top 5 Best Performing Customers
+
+| Rank | Customer           | OTIF % | D/O Gap % | ADDD | BR %  | Highlights                                           |
+|------|--------------------|--------|-----------|------|-------|------------------------------------------------------|
+| 1️⃣   | **Propel Mart**       | **65.05%** | -2.30%    | 1.45 | 24.4% | Highest OTIF %, lowest delivery delay                |
+| 2️⃣   | **Rel Fresh**         | 63.04%     | -2.57%    | 1.52 | 25.5% | Excellent VFR %, low D/O gap                         |
+| 3️⃣   | **Expert Mart**       | 63.61%     | -2.56%    | 1.48 | 24.5% | Strong In-Full %, low backorders                    |
+| 4️⃣   | **Expression Stores** | 62.31%     | -2.46%    | 1.56 | 24.7% | Great line fulfillment, strong OT %                 |
+| 5️⃣   | **Chiptec Stores**    | 62.97%     | -2.42%    | 1.46 | 24.4% | Balanced delivery performance, low delays           |
+
+---
+
+## 🚨 Bottom 5 Worst Performing Customers
+
+| Rank | Customer           | OTIF % | D/O Gap % | ADDD | BR %  | Issues                                               |
+|------|--------------------|--------|-----------|------|-------|------------------------------------------------------|
+| 🟥   | **Coolblue**          | **13.75%** | -4.92%    | 1.83 | **48.5%** | Lowest OTIF %, highest delivery-order gap            |
+| 🟥   | **Acclaimed Stores**  | 15.24%     | -4.15%    | 1.81 | 41.1% | High delayed orders and backorders                   |
+| 🟥   | **Lotus Mart**        | 16.06%     | -3.99%    | 1.82 | 39.9% | OTIF impacted by 74% delayed orders                  |
+| 🟥   | **Elite Mart**        | 44.88%     | -4.71%    | 1.47 | 47.3% | High backorder %, low in-full performance            |
+| 🟥   | **Info Stores**       | 43.48%     | -4.76%    | 1.55 | 46.9% | Delays and low fulfillment metrics                   |
+
+---
+
+## 🧠 Key Takeaways
+-- **Propel Mart** is the most efficient in end-to-end delivery and overall supply chain performance.
+
+- **Coolblue** has the lowest OTIF and the highest delivery-order gap – indicating serious service issues.
+
+- High backorder % is a consistent issue among the bottom 5 – impacting customer satisfaction and service levels.
+
+- Top performers maintain balanced performance across OTIF, BR, and ADDD, while bottom ones have high delays and low in-full deliveries.
+
+-----------
+### 5. 📊 Category & Product Insights – Performance Analysis  
 
 #### 🥤 Beverages : 
 ✅ **High VFR% (96.52%–96.59%)** → Most orders are being validated successfully.  
@@ -85,7 +120,53 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 ⚠️ **Backorder Rate (32.0%–34.8%)** shows similar challenges as Dairy & Beverages.  
 🔴 **OTIF% remains at 29.02%**, meaning fulfillment issues persist across all categories.  
 
------------
+---
+
+## 🏆 Top 5 Performing Products (by OTIF %)
+
+| Product         | OTIF % | LFR % | VFR % | BR %  | Contribution % |
+|----------------|--------|-------|-------|-------|----------------|
+| AM Ghee 150     | 47.93% | 66.2% | 96.63% | 33.3% | 5.62%          |
+| AM Biscuits 750 | 50.54% | 68.0% | 96.85% | 32.0% | 5.53%          |
+| AM Curd 250     | 49.14% | 67.0% | 96.72% | 33.0% | 5.50%          |
+| AM Milk 500     | 49.63% | 67.5% | 96.52% | 32.5% | 5.56%          |
+| AM Butter 100   | 48.08% | 66.7% | 96.59% | 33.3% | 5.55%          |
+
+---
+
+## 🚨 Bottom 5 Performing Products (by OTIF %)
+
+| Product          | OTIF % | Delayed Orders | BR %  | Notes                                |
+|------------------|--------|----------------|-------|--------------------------------------|
+| AM Butter 500    | 46.39% | 29.61%         | 34.8% | Lower delivery performance           |
+| AM Butter 250    | 46.72% | 28.67%         | 36.5% | Highest BR %, might indicate issues |
+| AM Biscuits 250  | 47.43% | 28.28%         | 34.8% | Slightly below average               |
+| AM Tea 100       | 47.22% | 28.37%         | 34.7% | Consistent but lagging               |
+| AM Ghee 250      | 46.94% | 30.41%         | 34.8% | Highest delayed order rate          |
+
+------
+
+## 🔍 Observations & Insights
+
+- **Best Overall Performer**:  
+  `AM Biscuits 750` stands out with **highest OTIF (50.54%)**, **highest LFR (68%)**, and **lowest D/O Gap (-3.15%)** among biscuit products.
+
+- **Worst OTIF Performer**:  
+  `AM Butter 500` with **46.39% OTIF**, despite good order volume, signals delivery issues.
+
+- **High Contribution Products**:  
+  `AM Milk 100`, `AM Milk 250`, and `AM Milk 500` contribute around **5.58% - 5.60%**, suggesting they are key volume drivers.
+
+- **Delayed Orders Concerns**:  
+  - `AM Ghee 250` (30.41%) and `AM Ghee 150` (30.13%) have **high delayed order %**, pointing to upstream bottlenecks or inventory challenges.
+
+- **Category Patterns**:
+  - **Milk & Curd** products generally perform better in OTIF and IF.
+  - **Ghee** and **Butter** products show higher BR and delay risks.
+  - **Tea** products are stable but have limited contribution share.
+
+---
+--------------
 ### 5. Performance Analysis : Actuals VS. Targets 📊
 
 | Metric                  | Actual (%) | Target (%) | Gap (%)  |
@@ -113,6 +194,7 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 ✔ **Monitor & Reduce Backorders**   
    - Stores with **70%+ backorders** should implement **demand forecasting & stock optimization**.
 
+------------ 
 ### 📌 Action Plan for Improvement  
 
 #### 🔹 Address Delivery Delays (Improve OT%)  
