@@ -6,10 +6,11 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 
 -----
 ### 1.  Overall Performance (Grand Total) 
-- ✔ OT% (On-Time Percentage): **59.03%** → Nearly 41% of orders are delayed.
-- ✔ IF% (In-Full Percentage): **52.78%** → Almost 47% of orders are not fully fulfilled.
-- ✔ OTIF% (On-Time In-Full): **29.02%** → Only 29% of orders are delivered both on time and in full.
-- ✔ LFR% (Line Fill Rate): **66.0%** → 34% of line items are not fulfilled.
+- ✔ Total Order Lines: **57.10K** → Order Lines were made over the last 6 months .
+- ✔ OT% (On-Time Percentage): **71.12** → Nearly 30% of orders are delayed.
+- ✔ IF% (In-Full Percentage): **65.96%** → Almost 34% of orders are not fully fulfilled.
+- ✔ OTIF% (On-Time In-Full): **47.95%** → Only 52% of orders are delivered both on time and in full.
+- ✔ LFR% (Line Fill Rate): **66%** → 34% of line items are not fulfilled.
 - ✔ VFR% (Volume Fill Rate): **96.59%** → High, indicating that overall order volume is mostly fulfilled.
 - ✔ Order Lead Time: **2.42** days on average.
 - ✔ Delayed Orders: **28.88%** → Nearly 1 in 3 orders is delayed.
@@ -20,19 +21,22 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 - Worst City in OTIF%: Vadodara (**27.78%**), indicating major fulfillment issues.
 - Highest Delayed Orders: Vadodara (**30.09%**), requiring urgent attention.
 - Worst Backorder Rate: Vadodara (**36.3%**), suggesting significant supply issues.
-  
-| City      | OT%    | IF%    | OTIF%  | LFR%  | VFR%  | Order Lead Time | Delayed Orders | Backorder Rate |
-|----------|--------|--------|--------|-------|-------|----------------|----------------|----------------|
-| Ahmedabad | 58.16% | 54.20% | 29.33% | 67.6% | 96.76% | 2.45 days | 30.00% | 32.4% |
-| Surat     | 61.21% | 52.55% | 30.07% | 66.7% | 96.65% | 2.37 days | 26.33% | 33.3% |
-| Vadodara  | 57.98% | 51.56% | 27.78% | 63.7% | 96.37% | 2.44 days | 30.09% | 36.3% |
+  # City & Customer Insights
+
+| City       | Total Order Lines | Ordered Qty | Delivered Qty | D/O Gap % | ADDD | OT %   | IF %   | OTIF % | LFR %  | VFR %  | BR %   | Contribution % |
+|------------|-------------------|-------------|----------------|------------|------|--------|--------|--------|--------|--------|--------|-----------------|
+| Vadodara   | 19.58K            | 4624K       | 4456K          | -3.63%     | 1.69 | 69.91% | 63.69% | 45.22% | 63.7%  | 96.37% | 36.3%  | 34.29%           |
+| Ahmedabad  | 19.68K            | 4612K       | 4463K          | -3.24%     | 1.70 | 70.00% | 67.56% | 48.33% | 67.6%  | 96.76% | 32.4%  | 34.46%           |
+| Surat      | 17.84K            | 4190K       | 4050K          | -3.35%     | 1.67 | 73.67% | 66.69% | 50.54% | 66.7%  | 96.55% | 33.3%  | 31.25%           |
+| **Total**  | **57.10K**        | **13427K**  | **12969K**     | **-3.41%** | 1.69 | 71.12% | 65.96% | 47.95% | 66.0%  | 96.59% | 34.0%  | 100.00%          |
+
 -----
 ### 3. 🏪 Store-Level Analysis  
 #### 3.1 : Best-Performing Stores (High OTIF%)
 
 | Customer        | Total Order Lines | Ordered Qty | Delivered Qty | D/O Gap % | ADDD | OT %   | IF %   | OTIF % | LFR %  | VFR %  | BR %   | Contribution % |
 |----------------|-------------------|-------------|----------------|------------|------|--------|--------|--------|--------|--------|--------|-----------------|
-| Propel Mart    | 4.85K             | 1144K       | 1118K          | -2.30%     | 1.45 | 85.62% | 75.62% | 65.05% | 75.6%  | 97.70% | 24.4%  | 8.50%           |
+| Propel Mart    | 4.85K             | 1144K       | 1118K          | -2.30%     | 1.45 | 85.62% | 75.62% | **65.05%** | 75.6%  | 97.70% | 24.4%  | 8.50%           |
 | Atlas Stores   | 3.25K             | 761K        | 742K           | -2.42%     | 1.49 | 84.20% | 75.48% | 63.80% | 75.5%  | 97.58% | 24.5%  | 5.69%           |
 | Expert Mart    | 3.33K             | 790K        | 769K           | -2.56%     | 1.48 | 84.62% | 75.48% | 63.61% | 75.9%  | 97.44% | 24.5%  | 5.83%           |
 | Viveks Stores  | 3.22K             | 760K        | 742K           | -2.43%     | 1.57 | 83.42% | 75.06% | 63.04% | 75.1%  | 97.57% | 24.9%  | 5.64%           |
@@ -46,21 +50,21 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 
 | Customer          | Total Order Lines | Ordered Qty | Delivered Qty | D/O Gap % | ADDD | OT %   | IF %   | OTIF % | LFR %  | VFR %  | BR %   | Contribution % |
 |-------------------|-------------------|-------------|----------------|------------|------|--------|--------|--------|--------|--------|--------|-----------------|
-| Coolblue          | 3.34K             | 777K        | 738K           | -4.92%     | 1.83 | 26.81% | 51.53% | 13.75% | 51.5%  | 95.08% | 48.5%  | 5.85%           |
+| **Coolblue**          | 3.34K             | 777K        | 738K           | -4.92%     | 1.83 | 26.81% | 51.53% | **13.75%** | 51.5%  | 95.08% | 48.5%  | 5.85%           |
 | Acclaimed Stores  | 4.80K             | 1120K       | 1074K          | -4.15%     | 1.81 | 26.89% | 58.93% | 15.24% | 58.9%  | 95.85% | 41.1%  | 8.40%           |
 | Lotus Mart        | 4.87K             | 1157K       | 1111K          | -3.99%     | 1.82 | 25.73% | 60.08% | 16.06% | 60.1%  | 96.01% | 39.9%  | 8.53%           |
 | Info Stores       | 3.23K             | 768K        | 731K           | -4.76%     | 1.55 | 83.14% | 53.05% | 43.48% | 53.1%  | 95.24% | 46.9%  | 5.65%           |
 | Elite Mart        | 3.28K             | 772K        | 736K           | -4.71%     | 1.47 | 84.74% | 52.74% | 44.88% | 52.7%  | 95.29% | 47.3%  | 5.75%           |
 
 👉 **Insights:**  
-- **Acclaimed Stores (Surat)** has the lowest **OTIF% (6.93%)** → **Severe supply chain inefficiency**.  
-- **Coolblue & Lotus Mart** also struggle with **OTIF <10%**, **high backorders (70%+),** and **long lead times (3.3 days)**.  
+- **Coolblue** has the lowest **OTIF% (13.75%)** → **Severe supply chain inefficiency**.  
+- **Coolblue ,Acclaimed Stores & Lotus Mart** also struggle with **OTIF 10-15%**, **high backorders in range 40% ,** and **long lead times (3.3 days)**.  
 - These stores need **urgent process improvement & supply chain adjustments**. 🚨
 
 ---------------
 ### 4. Overall Performance (Grand Total) :
-- Order Fill Rate: **96.6%** (Good, but slight improvements can be made).
-- OTIF% (On-Time In-Full Delivery): **29.02%** (Very low, indicating inefficiencies in on-time and in-full deliveries).
+- Volume Order Fill Rate (VOFR%): **96.6%** (Good, but slight improvements can be made).
+- OTIF% (On-Time In-Full Delivery): **47.95%** (Low, indicating inefficiencies in on-time and in-full deliveries).
 - Backorder Rate: **34.0%**  -> Suggests High, showing frequent stockouts or supply issues .
 - Delayed Orders: **28.88%** -> Suggests persistent delays in fulfillment  .
 
@@ -69,7 +73,7 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 
 #### 🥤 Beverages : 
 ✅ **High VFR% (96.52%–96.59%)** → Most orders are being validated successfully.  
-⚠️ **Backorder Rate (33.9%–34.8%)** & **Delayed Orders (~28.5%)** indicate room for improvement in supply chain execution.  
+⚠️ **Backorder Rate (33.9%–34.8%)** & **Delayed Orders (~28.5%)** indicate room for improvement in supply chain execution.   
 
 #### 🥛 Dairy :
 🔹 **Slightly better OTIF% (~29.02%)** compared to other categories but still low.  
@@ -91,9 +95,9 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 | **OTIF (On-Time In-Full)** | 29.02     | 68        | -38.98  |
 
 #### 🔍 Key Takeaways:
-- OT % (On-Time Delivery) is 28% below target – Orders are not being dispatched/delivered as scheduled, causing delays.
-- IF % (In-Full Delivery) is 26% below target – Many orders are not being fulfilled completely. This may be due to stock shortages, inaccurate demand forecasting, or supply chain inefficiencies.
-- OTIF % (On-Time In-Full) is the biggest concern (39% below target) – This suggests a major breakdown in end-to-end supply chain execution.
+- OT % (On-Time Delivery) is 71.12% -  **below target** – Orders are not being dispatched/delivered as scheduled, causing delays.
+- IF % (In-Full Delivery) is 65.96% - **below target** – Many orders are not being fulfilled completely. This may be due to stock shortages, inaccurate demand forecasting, or supply chain inefficiencies .
+- OTIF % (On-Time In-Full) is the **biggest concern** **(47.95%)** - **below target**  – This suggests a major breakdown in end-to-end supply chain execution .
 
 ## 📈 Opportunities for Improvement  for Cities & Customers  : 
 
