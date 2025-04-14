@@ -108,7 +108,7 @@ This Report aims to provide analytics related to Supply Chain Analysis .
    - **Lotus Mart, Coolblue, and Acclaimed Stores** need **better inventory planning**.  
 
 ✔ **Enhance On-Time Delivery (OT%) Across All Locations**  
-   - Aim to increase **OT% from 59% → 75%+** for better **reliability**.  
+   - Aim to increase **OT% from 71% → 75%+** for better **reliability**.  
 
 ✔ **Monitor & Reduce Backorders**   
    - Stores with **70%+ backorders** should implement **demand forecasting & stock optimization**.
