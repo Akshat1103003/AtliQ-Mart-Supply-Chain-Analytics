@@ -18,7 +18,7 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 - ✔ LFR %	**65.96%** - Line Fill Rate – 65.96% of ordered lines were fulfilled (regardless of time).
 - ✔ VFR %	**96.59%** - Volume Fill Rate – 96.59% of ordered volume was fulfilled.
 - ✔ Delayed Orders %	**40.97%** - 40.97% of orders were delivered late.
-- ✔ **BR %	**34.00%** - Backorder Rate – 34% of items were not fulfilled and backordered.
+- ✔ BR %	**34.00%** - Backorder Rate – 34% of items were not fulfilled and backordered.
 ------------------
 ### 2. 🏙️ City & Customer Insights – Analysis
 
