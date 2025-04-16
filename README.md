@@ -297,12 +297,12 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 ✅ Strengthen **supplier performance tracking** & contracts with **stricter SLAs**.  
 ✅ Implement **real-time tracking** for better visibility.  
 
-####🔹 Improve Order Fulfillment (Boost IF%)  
+#### 🔹 Improve Order Fulfillment (Boost IF%)  
 ✅ Reduce **stockouts** by enhancing **demand forecasting using AI/ML**.  
 ✅ Strengthen **warehouse operations** & **order picking efficiency**.  
 ✅ Improve **supplier reliability** and **inventory planning**.  
 
-####🔹 Enhance Overall OTIF Performance  
+#### 🔹 Enhance Overall OTIF Performance  
 ✅ Align **production planning** with **demand fluctuations**.  
 ✅ Implement **buffer inventory** for critical SKUs to avoid fulfillment issues.  
 ✅ Improve **coordination** between **procurement, warehouse, and logistics teams**.  
