@@ -148,7 +148,7 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 ## 🥇 Category-Wise Performance
 
 ### 1. 🧀 **Dairy** (Top Contributor)
-- **Contribution**: 79.3% of total volume
+- **Contribution**: 66.72% of total volume
 - **IF %**: 65.95% – consistent with total
 - **OTIF %**: 47.83% – moderate
 - **Delayed Orders %**: **29.93%** – much higher than others
@@ -162,7 +162,7 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 - **IF %**: 66.43% – best among categories
 - **OTIF %**: **48.84%** – **highest**
 - **LFR & VFR %**: Strong fill performance
-- **Contribution**: 27.3%
+- **Contribution**: 16.71%
 
 **Insight**: Best in service performance with room for **growth and expansion**.
 
@@ -172,7 +172,7 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 - **IF %**: 65.54%
 - **OTIF %**: 47.55% – lowest
 - **Delayed Orders %**: 8.28%
-- **Contribution**: 27.17%
+- **Contribution**: 16.57%
 
 **Insight**: Consistent but underperforming on OTIF and IF %. Needs focus on **improving delivery reliability**.
 
@@ -188,27 +188,27 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 ---
 # 📦 Product Performance Analysis
 
-## 🔝 Top 5 Performing Products (Based on OTIF %)
+## 🏆 Top 5 Overall Performing Products
 
-| Product         | OTIF % | IF %   | OT %   | Contribution % | Notes                                               |
-|----------------|--------|--------|--------|----------------|-----------------------------------------------------|
-| AM Biscuits 750| **50.54%** | 68.05% | 72.48% | 9.95%          | Highest OTIF, strong on-time & full delivery        |
-| AM Curd 250     | 49.14% | **67.05%** | 71.06% | 9.89%          | Top IF % — very consistent in full delivery         |
-| AM Curd 100     | 48.69% | 66.73% | 71.06% | 10.01%         | Great balance across all metrics                    |
-| AM Butter 100   | 48.08% | 66.66% | 70.82% | 9.99%          | Reliable across metrics, especially IF              |
-| AM Milk 100     | 48.65% | 65.55% | 71.83% | 10.03%         | High OT %, better performance overall               |
+| Rank | Product           | Highlights                                                                 |
+|------|-------------------|---------------------------------------------------------------------------|
+| 1    | **AM Biscuits 750** | Highest OTIF (50.48%), strong across OT%, IF%, LFR%, BR, lowest delayed orders |
+| 2    | **AM Biscuits 500** | High OTIF (48.58%), strong OT%, IF%, good fill rates                      |
+| 3    | **AM Butter 100**   | Good OT%, IF%, OTIF (48.08%), strong LFR and low delay %                   |
+| 4    | **AM Milk 100**     | Very balanced performance across all metrics                               |
+| 5    | **AM Curd 250**     | Strong IF% (67.05%), high OTIF, low D/O Gap, balanced delivery             |
 
 ---
 
-## 📉 Bottom 5 Performing Products (Based on OTIF %)
+## 🚩 Bottom 5 Overall Performing Products
 
-| Product         | OTIF % | IF %   | OT %   | Contribution % | Notes                                               |
-|----------------|--------|--------|--------|----------------|-----------------------------------------------------|
-| AM Butter 250   | **46.72%** | 63.52% | 71.33% | 9.85%          | Lowest OTIF & IF % — needs attention                |
-| AM Butter 500   | 46.39% | 65.19% | 70.39% | **10.31%**     | Most contributing product with weak OTIF            |
-| AM Tea 100      | 47.22% | 65.32% | 71.63% | 9.88%          | Below-average OTIF despite decent metrics           |
-| AM Ghee 100     | 46.87% | 65.75% | 70.05% | 9.76%          | Weakest OT % in the top 5 contributors              |
-| AM Tea 250      | 47.66% | 66.16% | 71.10% | 9.91%          | Room for improvement in timeliness                  |
+| Rank | Product           | Issues                                                                       |
+|------|-------------------|-------------------------------------------------------------------------------|
+| 1    | **AM Butter 250**  | Lowest IF % (63.52%), poor OTIF %, high BR %, poor fill rates                |
+| 2    | **AM Ghee 250**    | Low IF%, OT%, OTIF; weak delivery consistency                                |
+| 3    | **AM Ghee 150**    | Below average across all KPIs                                                |
+| 4    | **AM Tea 100**     | Low OT%, IF%, OTIF %; fair D/O Gap but lags elsewhere                        |
+| 5    | **AM Butter 500**  | Low OTIF %, moderate performance overall but slightly underperforms others   |
 
 ---
 
