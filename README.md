@@ -5,6 +5,15 @@ This Report aims to provide analytics related to Supply Chain Analysis .
 🔗 **[View Dashboard in Power BI](https://app.powerbi.com/view?r=eyJrIjoiYzJjM2ZhNWMtNDg4Zi00MmUwLWI1ZjItMDk4MDJjNGM0MGE0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=094201de7f7b8f9fcfc8)**  
 
 -----
+### Problem Statement : 
+AtliQ Mart is a growing **FMCG manufacturer** headquartered in Gujarat, India. It is currently operational in three cities: Surat, Ahmedabad, and Vadodara. They want to expand to other metros/Tier 1 cities in the next 2 years.
+
+AtliQ Mart is currently facing a problem where a few key customers have not extended their annual contracts due to service issues. It is speculated that **some of the essential products were either not delivered on time or not delivered in full over a continued period**, which could have resulted in bad customer service. Management wants to fix this issue before expanding to other cities and requested their supply chain analytics team to track the ’On time’ and ‘In Full’ delivery service level for all the customers daily basis so that they can respond swiftly to these issues.
+
+The Supply Chain team decided to use a standard approach to measure the service level in which they will measure ‘On-time delivery (OT) %’, ‘In-full delivery (IF) %’, and OnTime in full (OTIF) %’ of the customer orders daily basis against the target service level set for each customer. 
+
+--------
+
 ### 1.  Overall Performance (Grand Total) 
 
 - ✔ Total Order Lines -	**31.73K**	Total unique order transactions across all customers.
