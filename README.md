@@ -320,7 +320,7 @@ The Supply Chain team decided to use a standard approach to measure the service 
 ### Final Thoughts for City & Customer Analysis :
 - The supply chain performance is sub-optimal, with significant gaps in fulfillment.
 - Key priority should be increasing OTIF% and reducing delayed orders.
-- Some stores (Coolblue, Acclaimed, Lotus Mart) require urgent intervention to improve service levels.
+- Some stores ( ***Coolblue, Acclaimed, Lotus Mart*** ) require urgent intervention to improve service levels.
 -------------
 ### 🔄 Potential Improvement Strategies  for Products  :
 
